@@ -7,4 +7,4 @@ echo "Icon=application-x-shellscript" >> /home/${USER}/.config/autostart/mt-wifi
 echo "Name=mt-wifi" >> /home/${USER}/.config/autostart/mt-wifi.desktop
 echo "Type=Application" >> /home/${USER}/.config/autostart/mt-wifi.desktop
 echo "X-KDE-AutostartScript=true" >> /home/${USER}/.config/autostart/mt-wifi.desktop
-
+EOF
