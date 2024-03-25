@@ -3,4 +3,4 @@ sudo cp ./sh/* /usr/lib/systemd/system-sleep/
 sudo cp ./service/* /etc/systemd/system/
 sudo find ./service/ -name '*.service' -type f -exec bash -c "sudo systemctl enable $(echo {} | rev | cut -d '/' -f1 | rev) --now"  \;
 cp ./sh.local/* ${HOME}/.local/
-source ./autostartmt-wifi.sh
+source ./autostart/mt-wifi.sh
