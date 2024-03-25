@@ -1,2 +1,3 @@
+#!/bin/bash
 
-rm /usr/lib/systemd/system-sleep/restart-modprobe
+sudo rm /usr/lib/systemd/system-sleep/restart-modprobe

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo systemctl restart modprobe-mt7921e
